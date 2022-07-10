@@ -140,7 +140,6 @@ void fileDllInfo(const std::string& file_path_exe)
 
 }
 
-
 #define RESOURSE_ID 128
 
 void changeExeIcon(const char* exe_file_path, const char* icon_file_path)

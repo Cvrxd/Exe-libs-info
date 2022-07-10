@@ -5,7 +5,7 @@
 int main(int argc, const char* argv[])
 {
 	std::string filename_exe = "C:/Users/Sculptor/source/repos/prc++/Debug/prc++.exe";
-	std::string filename_ico = "C:/Users/Sculptor/source/repos/win_api_pr/Debug/test_ico.ico";
+	std::string filename_ico = "C:/Users/Sculptor/source/repos/win_api_pr/Ico/test_ico.ico";
 
 	std::cout << "Exe file path: ";
 	std::cin >> filename_exe;
