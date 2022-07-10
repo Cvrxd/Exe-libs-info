@@ -1,11 +1,30 @@
-#include<Windows.h>
-#include<iostream>
+#include<future>
 
-int main()
+#include"FileInfoFuncs.h"
+
+int main(int argc, const char* argv[])
 {
-	std::cout << "First commit ";
+	std::string filename_exe = "C:/Users/Sculptor/source/repos/prc++/Debug/prc++.exe";
+	std::string filename_ico = "C:/Users/Sculptor/source/repos/win_api_pr/Debug/test_ico.ico";
 
-	//Test 1
-	std::cout << "Test1";
+	std::cout << "Exe file path: ";
+	std::cin >> filename_exe;
+
+	std::cout << "\nIco file path: ";
+	std::cin >> filename_ico;
+
+	std::cout << "\n\n";
+
+	fileDllInfo(filename_exe);
+
+	const float exe_enthropy = fileEnthropy(filename_exe);
+	const float ico_enthropy = fileEnthropy(filename_ico);
+
+	std::cout << "File Enthropy: " << exe_enthropy << "    \t\t\t" + filename_exe << "\n\n";
+	std::cout << "File Enthropy: " << ico_enthropy << "    \t\t\t" + filename_ico << "\n\n";
+
+	changeExeIcon(filename_exe.c_str(), filename_ico.c_str());
+
 	return 0;
 }
+

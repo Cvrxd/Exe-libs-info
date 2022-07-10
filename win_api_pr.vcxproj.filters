@@ -13,10 +13,33 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="FileInfoI">
+      <UniqueIdentifier>{be509b97-7053-4f63-b2f1-bfef7bb1d5ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PE_format">
+      <UniqueIdentifier>{e846cdc1-ed6b-4f8a-a943-305bcc6043a3}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Source.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
+    <ClCompile Include="pe_base.cpp">
+      <Filter>PE_format</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="FileInfoFuncs.h">
+      <Filter>FileInfoI</Filter>
+    </ClInclude>
+    <ClInclude Include="pe_base.h">
+      <Filter>PE_format</Filter>
+    </ClInclude>
+    <ClInclude Include="pe_exception.h">
+      <Filter>PE_format</Filter>
+    </ClInclude>
+    <ClInclude Include="pe3264.h">
+      <Filter>PE_format</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
