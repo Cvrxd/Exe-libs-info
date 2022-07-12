@@ -1,4 +1,4 @@
-# Exe-files-libraries-info
+# Exe-libs-info
 
 About:
 
