@@ -18,6 +18,16 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Src\FileInfoFuncs.h" />
+    <ClInclude Include="Src\PE\pe3264.h" />
+    <ClInclude Include="Src\PE\pe_base.h" />
+    <ClInclude Include="Src\PE\pe_exception.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Src\PE\pe_base.cpp" />
+    <ClCompile Include="Src\Source.cpp" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
@@ -142,16 +152,6 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="pe_base.cpp" />
-    <ClCompile Include="Source.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="FileInfoFuncs.h" />
-    <ClInclude Include="pe3264.h" />
-    <ClInclude Include="pe_base.h" />
-    <ClInclude Include="pe_exception.h" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

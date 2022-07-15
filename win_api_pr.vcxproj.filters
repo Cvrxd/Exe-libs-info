@@ -21,25 +21,25 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Source.cpp">
-      <Filter>Исходные файлы</Filter>
-    </ClCompile>
-    <ClCompile Include="pe_base.cpp">
+    <ClInclude Include="Src\FileInfoFuncs.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\PE\pe_base.h">
       <Filter>PE_format</Filter>
-    </ClCompile>
+    </ClInclude>
+    <ClInclude Include="Src\PE\pe_exception.h">
+      <Filter>PE_format</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\PE\pe3264.h">
+      <Filter>PE_format</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="FileInfoFuncs.h">
-      <Filter>FileInfoI</Filter>
-    </ClInclude>
-    <ClInclude Include="pe_base.h">
+    <ClCompile Include="Src\PE\pe_base.cpp">
       <Filter>PE_format</Filter>
-    </ClInclude>
-    <ClInclude Include="pe_exception.h">
-      <Filter>PE_format</Filter>
-    </ClInclude>
-    <ClInclude Include="pe3264.h">
-      <Filter>PE_format</Filter>
-    </ClInclude>
+    </ClCompile>
+    <ClCompile Include="Src\Source.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

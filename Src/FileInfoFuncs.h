@@ -14,8 +14,8 @@
 #include <stdlib.h>
 #include <fcntl.h>
 
-#include "pe3264.h"
-#include "pe_exception.h"
+#include "PE/pe3264.h"
+#include "PE/pe_exception.h"
 
 float fileEnthropy(const std::string& file_path)
 {
