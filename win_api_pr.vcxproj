@@ -19,6 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Src\FileCopyF.h" />
     <ClInclude Include="Src\FileInfoFuncs.h" />
     <ClInclude Include="Src\PE\pe3264.h" />
     <ClInclude Include="Src\PE\pe_base.h" />

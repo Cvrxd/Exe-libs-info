@@ -33,6 +33,9 @@
     <ClInclude Include="Src\PE\pe3264.h">
       <Filter>PE_format</Filter>
     </ClInclude>
+    <ClInclude Include="Src\FileCopyF.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Src\PE\pe_base.cpp">
